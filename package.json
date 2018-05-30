@@ -1,0 +1,30 @@
+{
+  "name": "reactboiler",
+  "version": "1.0.0",
+  "description": "boilerplate for react and redux",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src/ --out-file ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/war-turtle/ReactReduxBoiler.git"
+  },
+  "author": "war-turtle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/war-turtle/ReactReduxBoiler/issues"
+  },
+  "homepage": "https://github.com/war-turtle/ReactReduxBoiler#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-app": "^3.1.1",
+    "webpack": "^4.10.2"
+  }
+}
