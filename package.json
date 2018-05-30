@@ -4,7 +4,9 @@
   "description": "boilerplate for react and redux",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=development"
+    "clean": "rimraf dist",
+    "build:prod": "npm run clean && webpack --mode=production",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,14 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react-app": "^3.1.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.21.0",
     "webpack": "^4.10.2",
-    "webpack-cli": "^2.1.4"
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
   }
 }
